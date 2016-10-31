@@ -10,8 +10,8 @@ Estrutura inicial
 -------------------------------------------------------
 recruitment_number |  resposta1 | resposta2 | resposta3 | resposta4
 -------------------|------------|-----------|-----------|----------
- ------0577--------|   sim      |   não     |  talvez   |  não sabe
- ------0578--------|   não      |   talvez  |    sim    |     2
+        0577       |   sim      |   não     |  talvez   |  não sabe
+        0578       |   não      |   talvez  |    sim    |     2
 --------------------------------------------------------
 
 Estrutura em Json feita pelo sistema SASS 
