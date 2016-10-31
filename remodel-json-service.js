@@ -74,7 +74,7 @@ var RemodelJSonService = function() {
     }
 
     function _parseParticipantData(participantData) {
-        var currentParticipant = participantData.IDELSA;
+        var currentParticipant = participantData.recruitment_number;
         _applyNewModel(participantData);
 
         fs.appendFile(_dest, _separator + '"' + currentParticipant + '":' + JSON.stringify(_newModel), 'utf8', function(err) {
@@ -85,8 +85,8 @@ var RemodelJSonService = function() {
     }
 
     function _applyNewModel(participantData) {
-        var participantValue = participantData.IDELSA;
-        delete participantData.IDELSA;
+        var participantValue = participantData.recruitment_number;
+        delete participantData.recruitment_number;
         var variables = Object.keys(participantData);
 
         variables.map(function(variable) {
