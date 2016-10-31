@@ -8,24 +8,24 @@ Características da usabilidade do modulo:
 
 Estrutura inicial
 -------------------------------------------------------
-IDELSA |  resposta1 | resposta2 | resposta3 | resposta4
--------|------------|-----------|-----------|----------
- 0577  |   sim      |   não     |  talvez   |  não sabe
- 0578  |   não      |   talvez  |    sim    |     2
+recruitment_number |  resposta1 | resposta2 | resposta3 | resposta4
+-------------------|------------|-----------|-----------|----------
+ ------0577--------|   sim      |   não     |  talvez   |  não sabe
+ ------0578--------|   não      |   talvez  |    sim    |     2
 --------------------------------------------------------
 
 Estrutura em Json feita pelo sistema SASS 
 
 ```
 [
-  { "IDELSA":1577,
+  { "recruitment_number":1577,
     "resposta1": "sim",
     "resposta2": "não",
     "resposta3": "talvez",
     "resposta4": "não sabe"
    },
   {
-    "IDELSA":1578,
+    "recruitment_number":1578,
     "resposta1": "não",
     "resposta2": "talvez",
     "resposta3": "sim",
