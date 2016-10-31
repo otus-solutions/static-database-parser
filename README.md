@@ -37,7 +37,7 @@ Estrutura em Json feita pelo sistema SASS
 Comando Node que recebe a base sass em json e faz remodelagem em um novo arquivo json 
 
 ```node
-$ node modelJson.js origin.json result.json
+$ node model-json origin.json result.json
 ```
 * modelJson = comando;
 * origin.json = arquivo origem (base SASS);
